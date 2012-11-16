@@ -1,0 +1,6 @@
+header {margin-bottom: 10px;}
+
+.sidebar h1, .sidebar h2, .sidebar h3,
+.sidebar h4, .sidebar h5, .sidebar h6 {
+	color: #666;
+}

@@ -1,0 +1,438 @@
+2012-10-31 05:58:57 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:58:57 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:58:57 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:58:57 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:58:57 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:58:58 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:58:58 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:58:58 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:49 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:50 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:50 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:50 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:50 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:50 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:50 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:50 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:54 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:55 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:55 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:55 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:55 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:55 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:55 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 05:59:55 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:00:16 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:00:16 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:00:16 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:00:16 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:00:16 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:00:16 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:00:16 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:00:16 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:09:44 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:09:44 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:09:49 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:09:49 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:10:21 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:17:44 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:17:44 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:17:49 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:17:50 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:17:50 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:17:51 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 06:22:08 Error: [MissingViewException] View file "C:\wamp\www\escuinapa\app\View\Pages\data.ctp" is missing.
+#0 C:\wamp\www\escuinapa\lib\Cake\View\View.php(441): View->_getViewFileName('data')
+#1 C:\wamp\www\escuinapa\lib\Cake\Controller\Controller.php(956): View->render('data', NULL)
+#2 C:\wamp\www\escuinapa\app\Controller\PagesController.php(73): Controller->render('data')
+#3 [internal function]: PagesController->display('data')
+#4 C:\wamp\www\escuinapa\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\escuinapa\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\escuinapa\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-31 06:22:08 Error: [MissingViewException] View file "C:\wamp\www\escuinapa\app\View\Pages\css\bootstrap.min.css.ctp" is missing.
+#0 C:\wamp\www\escuinapa\lib\Cake\View\View.php(441): View->_getViewFileName('css/bootstrap.m...')
+#1 C:\wamp\www\escuinapa\lib\Cake\Controller\Controller.php(956): View->render('css/bootstrap.m...', NULL)
+#2 C:\wamp\www\escuinapa\app\Controller\PagesController.php(73): Controller->render('css/bootstrap.m...')
+#3 [internal function]: PagesController->display('css', 'bootstrap.min.c...')
+#4 C:\wamp\www\escuinapa\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\escuinapa\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\escuinapa\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-31 06:22:52 Error: [MissingViewException] View file "C:\wamp\www\escuinapa\app\View\Pages\data.ctp" is missing.
+#0 C:\wamp\www\escuinapa\lib\Cake\View\View.php(441): View->_getViewFileName('data')
+#1 C:\wamp\www\escuinapa\lib\Cake\Controller\Controller.php(956): View->render('data', NULL)
+#2 C:\wamp\www\escuinapa\app\Controller\PagesController.php(73): Controller->render('data')
+#3 [internal function]: PagesController->display('data')
+#4 C:\wamp\www\escuinapa\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\escuinapa\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\escuinapa\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-31 06:22:53 Error: [MissingViewException] View file "C:\wamp\www\escuinapa\app\View\Pages\css\bootstrap.min.css.ctp" is missing.
+#0 C:\wamp\www\escuinapa\lib\Cake\View\View.php(441): View->_getViewFileName('css/bootstrap.m...')
+#1 C:\wamp\www\escuinapa\lib\Cake\Controller\Controller.php(956): View->render('css/bootstrap.m...', NULL)
+#2 C:\wamp\www\escuinapa\app\Controller\PagesController.php(73): Controller->render('css/bootstrap.m...')
+#3 [internal function]: PagesController->display('css', 'bootstrap.min.c...')
+#4 C:\wamp\www\escuinapa\lib\Cake\Controller\Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 C:\wamp\www\escuinapa\lib\Cake\Routing\Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 C:\wamp\www\escuinapa\lib\Cake\Routing\Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 C:\wamp\www\escuinapa\app\webroot\index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-31 15:06:34 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /var/www/sites/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 15:23:33 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 /home/dresendez/projects/escuinapa/index.php(42): require('/home/dresendez...')
+#2 {main}
+2012-10-31 15:28:00 Error: [MissingControllerException] Controller class Index.phpController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 15:39:33 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 15:42:30 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 15:46:53 Error: [MissingControllerException] Controller class RouteController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 15:48:22 Error: [MissingControllerException] Controller class RouteController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 15:57:45 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 15:59:32 Error: [MissingControllerException] Controller class HomeController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 16:07:00 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Pages/index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('index')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('index', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/PagesController.php(73): Controller->render('index')
+#3 [internal function]: PagesController->display('index')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-31 16:07:00 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Pages/css/bootstrap.min.css.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('css/bootstrap.m...')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('css/bootstrap.m...', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/PagesController.php(73): Controller->render('css/bootstrap.m...')
+#3 [internal function]: PagesController->display('css', 'bootstrap.min.c...')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-10-31 16:07:15 Error: [MissingControllerException] Controller class PageController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 16:07:44 Error: [MissingControllerException] Controller class PageController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 16:07:52 Error: [MissingControllerException] Controller class JjjController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-10-31 16:14:07 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Pages/index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName(NULL)
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-01 14:46:16 Error: [MissingControllerException] Controller class Holder.jsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-01 14:46:16 Error: [MissingControllerException] Controller class Holder.jsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-01 14:46:16 Error: [MissingControllerException] Controller class Holder.jsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-01 14:47:03 Error: [MissingControllerException] Controller class Holder.jsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-01 14:47:03 Error: [MissingControllerException] Controller class Holder.jsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-01 14:47:03 Error: [MissingControllerException] Controller class Holder.jsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-01 14:49:57 Error: [MissingControllerException] Controller class Holder.jsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-01 14:49:57 Error: [MissingControllerException] Controller class Holder.jsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-01 14:49:57 Error: [MissingControllerException] Controller class Holder.jsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-08 13:31:58 Error: Fatal Error (4): syntax error, unexpected T_VARIABLE in [/home/dresendez/projects/escuinapa/app/Controller/PagesController.php, line 96]
+2012-11-08 13:31:58 Error: [FatalErrorException] syntax error, unexpected T_VARIABLE
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dresendez...', 96)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dresendez...', 96, Array)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dresendez...', 96, Array)
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-08 13:32:56 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-08 20:34:38 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-08 20:34:40 Error: [MissingControllerException] Controller class CssController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-08 20:39:12 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-08 20:39:45 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-14 11:23:02 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-14 11:23:57 Error: [MissingControllerException] Controller class LolController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-14 11:24:59 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Pages/lol.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('lol')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('lol', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/PagesController.php(73): Controller->render('lol')
+#3 [internal function]: PagesController->display('lol')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-14 11:28:05 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Pages/lol.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('lol')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('lol', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/PagesController.php(73): Controller->render('lol')
+#3 [internal function]: PagesController->display('lol')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-15 14:06:13 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName(NULL)
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-15 14:07:19 Error: [MissingControllerException] Controller class Mi-tierraController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:08:17 Error: [MissingActionException] Action HomeController::mi-tierra() could not be found.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-15 14:08:38 Error: Fatal Error (4): syntax error, unexpected '-', expecting '(' in [/home/dresendez/projects/escuinapa/app/Controller/HomeController.php, line 58]
+2012-11-15 14:08:38 Error: [FatalErrorException] syntax error, unexpected '-', expecting '('
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(4, 'syntax error, u...', '/home/dresendez...', 58)
+#1 [internal function]: ErrorHandler::handleError(4, 'syntax error, u...', '/home/dresendez...', 58, Array)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 4, 'syntax error, u...', '/home/dresendez...', 58, Array)
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-11-15 14:08:57 Error: [MissingControllerException] Controller class Mi-tierraController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:11:25 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:17:41 Error: [MissingActionException] Action HomeController::mi-tierra() could not be found.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-15 14:20:14 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/mitierra.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName(NULL)
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-15 14:38:00 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:38:50 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:39:06 Error: [MissingActionException] Action HomeController::mi-tierra() could not be found.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-15 14:39:36 Error: [MissingActionException] Action HomeController::mi-tierra() could not be found.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-15 14:39:41 Error: [MissingActionException] Action HomeController::mi-tierra() could not be found.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}
+2012-11-15 14:40:03 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:47:12 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:47:22 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:48:59 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:49:22 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:49:27 Error: [MissingControllerException] Controller class Mi-tierraController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:49:43 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:50:02 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:50:11 Error: [MissingControllerException] Controller class Mi-tierraController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:56:56 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/process.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName(NULL)
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-15 14:57:20 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:58:07 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Pages/lol.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('lol')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('lol', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/PagesController.php(73): Controller->render('lol')
+#3 [internal function]: PagesController->display('lol')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-11-15 14:58:19 Error: [MissingControllerException] Controller class Controller could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-11-15 14:59:16 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/process.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName(NULL)
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-11-15 15:02:59 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/mi-tierra.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('mi-tierra')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('mi-tierra', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(60): Controller->render('mi-tierra')
+#3 [internal function]: HomeController->process('mi-tierra')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

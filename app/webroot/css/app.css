@@ -1,0 +1,59 @@
+/* Artfully masterminded by ZURB  */
+
+/* -------------------------------------------------- 
+   Table of Contents
+-----------------------------------------------------
+:: Typography
+:: Shared Styles
+:: Page Name 1
+:: Page Name 2
+*/
+
+
+/* -----------------------------------------
+   Typography
+----------------------------------------- */
+@import url(http://fonts.googleapis.com/css?family=PT+Sans|PT+Sans+Narrow|PT+Serif+Caption|PT+Serif|PT+Sans+Caption|Arvo);
+/* -----------------------------------------
+   Shared Styles
+----------------------------------------- */
+
+html { color: #333; background: #f8f8f8;}
+body {color: #333; background: #f8f8f8;}
+
+h1, h2, h3,h4, h5, h6 {
+	font-family: 'Arvo', Georgia, Times, serif;
+	color: #666;
+}
+
+h4.title { color:#cac08f;}
+
+.style-button, .style-button:hover {
+	background: #DECC99;
+	border: 1px solid #d6c1a6;
+	color: #313851;
+}
+
+p {
+	font-family: 'PT Sans', Helvetica, Arial, sans-serif;
+	text-align: justify;
+	text-justify: inter-word;
+	color: #313851;
+}
+
+article { margin-top: 15px !important;}
+
+
+/* -----------------------------------------
+   Main
+----------------------------------------- */
+footer.page-main {height: 180px;background: #fff; margin-top: 10px; border-top: 1px solid #ebebeb;} 
+header.page-main {height: 80px;background: #f7f7f7;}
+
+
+
+/* -----------------------------------------
+   Page Name 2
+----------------------------------------- */
+
+
