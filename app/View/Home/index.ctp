@@ -2,7 +2,9 @@
 
 
 <!-- Header -->
-  <img src="/img/header.jpg" ><br /><br /><br />
+  <header>
+    <img src="/img/header.jpg" >
+  </header><br /><br /><br />
 <!-- End Header -->
      
 
@@ -17,6 +19,14 @@
 
       <p>Del Nahualt <b>itz-cui-na-pan</b> el cual esta compuesto por itzquintli "perro" a de atl "agua" y pan "en"; el topónimo significa por lo tanto "en el agua del perro" o "donde hay perros del agua"</p><hr>
 
+      <div>
+      	<div class="six columns"><a href="#">Historia</a></div>
+      	<div class="six columns"><a href="#">Información</a></div>
+      </div>
+      <br /><br />
+      <div>
+      <h4 class="small">Micrositios</h4>	
+      </div>
       
     </div> 
 
@@ -64,8 +74,8 @@
     </div> 
 
      <div id="right-sidebar" class="three columns  sidebar">
-        <div>
-          <h5>Categorías</h5>
+        <div class="widget-gallery">
+          <h5>Galer&iacuteas</h5>
           <ul class="side-nav">
             <li><a href="#">News</a></li>
             <li><a href="#">Code</a></li>
@@ -76,13 +86,11 @@
         </div>
         
 
-        <div class="panel">
-          <h5>Featured</h5>
-          <p>Pork drumstick turkey fugiat. Tri-tip elit turducken pork chop in. Swine short ribs meatball irure bacon nulla pork belly cupidatat meatloaf cow.</p>
-          <a href="#">Read More &rarr;</a>
+        <div class="widget-events">
+        	<h5>Eventos</h5>
         </div>
 
-        <div class="twelve columns">
+        <div class="widget-ads">
           <h5>Publicidad</h5>
           <div>
             <ul class="block-grid two-up ">
@@ -92,15 +100,6 @@
               
             </ul>
           </div>
-        </div>
-        <br>
-        <div class="twelve columns">
-          <h5>Enlaces</h5>
-          <ul class="side-nav">
-            <?php for ($i =0 ; $i<4; $i++): ?>
-              <li><a href="#">Blog #<?=$i?></a></li>
-            <?php endfor; ?>
-          </ul>
         </div>
         
 
