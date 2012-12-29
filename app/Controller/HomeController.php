@@ -50,8 +50,9 @@ class HomeController extends AppController {
 		$extra_classes = array();
 		$extra_plugins = array();
 		$extra_values = array();
+		$extra_scripts = array();
 		$title_for_layout = '';
-		$this->set(compact('extra_styles','extra_plugins','extra_classes','extra_values', 'title_for_layout'));
+		$this->set(compact('extra_styles','extra_plugins','extra_classes','extra_values', 'title_for_layout','extra_scripts'));
 		parent::beforeFilter();
 	}
 
@@ -60,31 +61,10 @@ class HomeController extends AppController {
 		$this->render(implode('/', $path));
 	}
 
-	public function mitierra(){
 	
-
-		$extra_styles = array(
-			'app_styles/app.home.styles'
-		);
-
-		$extra_values = array(
-			'init.values'
-		);
-
-		$extra_plugins = array(
-			'jquery.fitvids'
-		);
-
-		$title_for_layout = 'Escuin@pa - Esta es mi tierra';
-
-		$this->set(compact('extra_styles','extra_values','extra_plugins','title_for_layout'));
-		
-		$this->layout = 'base';
-	}
 
 	public function index(){
 	
-
 		$extra_styles = array(
 			'app_styles/app.home.styles'
 		);
@@ -94,13 +74,43 @@ class HomeController extends AppController {
 		);
 
 		$extra_plugins = array(
-			'jquery.fitvids'
+			
+		);
+		
+		$extra_scripts = array(
+			'main'
 		);
 
 		$title_for_layout = 'Escuin@pa';
 
-		$this->set(compact('extra_styles','extra_values','extra_plugins','title_for_layout'));
+		$this->set(compact('extra_styles','extra_values','extra_plugins', 'extra_scripts','title_for_layout', 'news'));
 		
 		$this->layout = 'base';
+	}
+	
+	public function galleries($gallery_name = null, $photo_id = 0){
+		$path = func_get_args();
+		$isIndex = '';	
+		$extra_styles = array(
+			'app_styles/app.home.styles'
+		);
+
+		$extra_values = array(
+			'init.values'
+		);
+		
+		if (empty($gallery_name) ){
+			$gallery_name = Inflector::slug('Galerias');
+			$isIndex = 'gallery_index';
+		}
+		
+		$title_for_layout = 'Galer&iacute;a - '.Inflector::humanize($gallery_name);
+
+		$this->set(compact('extra_styles','extra_values','extra_plugins','title_for_layout','path'));
+		
+		$this->layout = 'base';
+		
+		if (!empty($isIndex))	$this->render($isIndex);
+		
 	}
 }

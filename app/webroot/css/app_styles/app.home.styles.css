@@ -1,6 +1,21 @@
 header {margin-bottom: 10px;}
 
+*.center {
+	margin: 0 auto;
+}
+
 .sidebar h1, .sidebar h2, .sidebar h3,
 .sidebar h4, .sidebar h5, .sidebar h6 {
 	color: #666;
 }
+
+/** News Rules **/
+.news .news-body p {
+	word-wrap:break-word;
+	white-space: pre-line;
+}
+
+a.news-title, a.news-title:hover {
+	color: #666;
+}
+

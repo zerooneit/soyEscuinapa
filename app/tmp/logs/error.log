@@ -436,3 +436,357 @@
 #6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
 #7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2012-12-03 14:07:56 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/pages.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('pages')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('pages', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(60): Controller->render('pages')
+#3 [internal function]: HomeController->process('pages')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-03 14:11:02 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Pages/historia.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('historia')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('historia', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/PagesController.php(73): Controller->render('historia')
+#3 [internal function]: PagesController->display('historia')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-03 14:11:17 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Pages/historia-de-escuinapa.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('historia-de-esc...')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('historia-de-esc...', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/PagesController.php(73): Controller->render('historia-de-esc...')
+#3 [internal function]: PagesController->display('historia-de-esc...')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-03 14:17:29 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Pages/historia-de-escuinapa.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('historia-de-esc...')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('historia-de-esc...', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/PagesController.php(73): Controller->render('historia-de-esc...')
+#3 [internal function]: PagesController->display('historia-de-esc...')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-05 12:10:12 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:12:59 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:13:03 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:13:17 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:13:35 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:14:13 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:14:59 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:15:19 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/galleries.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName(NULL)
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-05 12:23:54 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/galleries.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName(NULL)
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-05 12:23:57 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/galleries.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName(NULL)
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render(NULL, NULL)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(193): Controller->render()
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#4 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#5 {main}
+2012-12-05 12:31:55 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:32:55 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:33:20 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:33:25 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:36:25 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:36:29 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 12:36:30 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-05 17:23:05 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(125): Controller->render('')
+#3 [internal function]: HomeController->galleries()
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-06 10:11:09 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/home/gallery_index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('home/gallery_in...')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('home/gallery_in...', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(129): Controller->render('home/gallery_in...')
+#3 [internal function]: HomeController->galleries()
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-06 10:11:27 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/gallery_index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('gallery_index')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('gallery_index', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(129): Controller->render('gallery_index')
+#3 [internal function]: HomeController->galleries()
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-06 10:11:42 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-12 18:37:59 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/gallery_index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('gallery_index')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('gallery_index', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(129): Controller->render('gallery_index')
+#3 [internal function]: HomeController->galleries()
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-12 18:38:10 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-12 18:39:52 Error: [MissingControllerException] Controller class GalleryController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2012-12-13 10:56:57 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/dresendez/projects/escuinapa/app/Controller/HomeController.php, line 87]
+2012-12-13 10:56:57 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/dresendez...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/dresendez...', 87, Array)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/dresendez...', 87, Array)
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-13 11:01:11 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/dresendez/projects/escuinapa/app/Controller/HomeController.php, line 87]
+2012-12-13 11:01:11 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/dresendez...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/dresendez...', 87, Array)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/dresendez...', 87, Array)
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-13 11:01:15 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/dresendez/projects/escuinapa/app/Controller/HomeController.php, line 87]
+2012-12-13 11:01:15 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/dresendez...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/dresendez...', 87, Array)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/dresendez...', 87, Array)
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-13 11:01:16 Error: Fatal Error (1): Call to a member function find() on a non-object in [/home/dresendez/projects/escuinapa/app/Controller/HomeController.php, line 87]
+2012-12-13 11:01:16 Error: [FatalErrorException] Call to a member function find() on a non-object
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Error/ErrorHandler.php(161): ErrorHandler::handleFatalError(1, 'Call to a membe...', '/home/dresendez...', 87)
+#1 [internal function]: ErrorHandler::handleError(1, 'Call to a membe...', '/home/dresendez...', 87, Array)
+#2 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(926): call_user_func('ErrorHandler::h...', 1, 'Call to a membe...', '/home/dresendez...', 87, Array)
+#3 /home/dresendez/projects/escuinapa/lib/Cake/Core/App.php(899): App::_checkFatalError()
+#4 [internal function]: App::shutdown()
+#5 {main}
+2012-12-13 12:55:22 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/gallery_index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('gallery_index')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('gallery_index', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(129): Controller->render('gallery_index')
+#3 [internal function]: HomeController->galleries()
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-13 13:00:03 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/gallery_index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('gallery_index')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('gallery_index', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(129): Controller->render('gallery_index')
+#3 [internal function]: HomeController->galleries()
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-13 13:00:07 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/gallery.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('gallery')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('gallery', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(60): Controller->render('gallery')
+#3 [internal function]: HomeController->process('gallery')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-13 13:00:20 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/gallery.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('gallery')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('gallery', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(60): Controller->render('gallery')
+#3 [internal function]: HomeController->process('gallery')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-13 13:00:28 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/gallery_index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('gallery_index')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('gallery_index', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(129): Controller->render('gallery_index')
+#3 [internal function]: HomeController->galleries()
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-13 13:00:49 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/gallery_index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('gallery_index')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('gallery_index', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(129): Controller->render('gallery_index')
+#3 [internal function]: HomeController->galleries()
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-13 13:00:52 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/gallery_index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('gallery_index')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('gallery_index', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(129): Controller->render('gallery_index')
+#3 [internal function]: HomeController->galleries()
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-13 13:00:55 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/gallery_index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('gallery_index')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('gallery_index', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(129): Controller->render('gallery_index')
+#3 [internal function]: HomeController->galleries()
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-13 13:01:03 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/gallery_index.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('gallery_index')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('gallery_index', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(129): Controller->render('gallery_index')
+#3 [internal function]: HomeController->galleries()
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-28 16:04:26 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/loader.gif.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('loader.gif')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('loader.gif', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(61): Controller->render('loader.gif')
+#3 [internal function]: HomeController->process('loader.gif')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-28 16:08:55 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/loader.gif.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('loader.gif')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('loader.gif', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(61): Controller->render('loader.gif')
+#3 [internal function]: HomeController->process('loader.gif')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-28 16:12:59 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/loader.gif.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('loader.gif')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('loader.gif', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(61): Controller->render('loader.gif')
+#3 [internal function]: HomeController->process('loader.gif')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-28 16:14:10 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/loader.gif.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('loader.gif')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('loader.gif', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(61): Controller->render('loader.gif')
+#3 [internal function]: HomeController->process('loader.gif')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-28 16:15:33 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/loader.gif.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('loader.gif')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('loader.gif', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(61): Controller->render('loader.gif')
+#3 [internal function]: HomeController->process('loader.gif')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-28 16:18:34 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/loader.gif.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('loader.gif')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('loader.gif', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(61): Controller->render('loader.gif')
+#3 [internal function]: HomeController->process('loader.gif')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-28 16:21:43 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/loader.gif.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('loader.gif')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('loader.gif', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(61): Controller->render('loader.gif')
+#3 [internal function]: HomeController->process('loader.gif')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}
+2012-12-28 16:22:08 Error: [MissingViewException] View file "/home/dresendez/projects/escuinapa/app/View/Home/loader.gif.ctp" is missing.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/View/View.php(441): View->_getViewFileName('loader.gif')
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(956): View->render('loader.gif', NULL)
+#2 /home/dresendez/projects/escuinapa/app/Controller/HomeController.php(61): Controller->render('loader.gif')
+#3 [internal function]: HomeController->process('loader.gif')
+#4 /home/dresendez/projects/escuinapa/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(HomeController), Array)
+#5 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

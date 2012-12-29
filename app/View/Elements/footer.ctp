@@ -24,17 +24,17 @@
                     echo $this->Html->script('plugins/'.$f);
                 }
             }
+			
+			if (isset($extra_scripts) && !empty($extra_scripts) && is_array($extra_scripts)){
+                foreach ($extra_scripts as $f) {
+                    echo $this->Html->script($f);
+                }
+            }
 
             echo $this->Html->script("app"); 
         ?>
 
-        <!-- Put this above your </body> tag -->
-        <script type="text/javascript">
-          $(window).load(function() {
-            $('#slider').orbit();
-          });
-        </script>
-        
+               
         <script>
             var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
             (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
