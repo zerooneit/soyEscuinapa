@@ -27,13 +27,32 @@
  */
 	Router::connect('/',array('controller' => 'home', 'action'=>'index'));
 	
+	Router::connect('/gallery',array('controller' => 'home', 'action'=>'galleries'));
+	
+	Router::connect('/gallery/:slug/:photo_id', 
+			array('controller' => 'home', 'action'=>'galleries'),
+			array(
+				'pass' => array('slug','photo_id'),
+			)
+	);
+	
+	Router::connect('/gallery/:slug', 
+			array('controller' => 'home', 'action'=>'galleries'),
+			array(
+				'pass' => array('slug'),
+			)
+	);
+	
 	Router::connect('/:slug', 
 		array('controller' => 'home', 'action'=>'process'), 
 		array('pass'=>array('slug')));
 /**
  * ...and connect the rest of 'Pages' controller's urls.
  */
-	Router::connect('/pages/*', array('controller' => 'pages', 'action' => 'display'));
+	
+	Router::connect('/pages/:slug', 
+		array('controller' => 'pages', 'action'=>'display'), 
+		array('pass'=>array('slug')));
 
 /**
  * Load all plugin routes.  See the CakePlugin documentation on

@@ -5,6 +5,7 @@
 <!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
 <head>
     <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title><?php echo $title_for_layout; ?></title>
     <meta name="description" content="">
@@ -36,7 +37,7 @@
 
 <nav class="top-bar fixed">
   <ul>
-    <li class="name"><h1><a href="#">Escuin@pa</a></h1></li>
+    <li class="name"><h1><a href="/">Escuin@pa</a></h1></li>
     <li class="toggle-topbar"><a href="#"></a></li>
   </ul>
 

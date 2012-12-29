@@ -18,8 +18,21 @@
     $.fn.foundationClearing         ? $doc.foundationClearing() : null;
 
     $('input, textarea').placeholder();
+    
+   
 
-    $('.vid-widget').fitVids();
+	$(window).load(function() {
+		$('#slider').orbit({
+			timer: false,
+			bullets: true,
+			advanceSpeed: 7000,
+			captions: true,
+			animation: 'fade'
+		});
+	});
+
+
+    
   });
 
   // UNCOMMENT THE LINE YOU WANT BELOW IF YOU WANT IE8 SUPPORT AND ARE USING .block-grids

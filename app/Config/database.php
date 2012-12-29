@@ -64,9 +64,9 @@ class DATABASE_CONFIG {
 		'persistent' => false,
 		'host' => 'localhost',
 		'login' => 'zeroone1_admin',
-		'password' => 'sunny!!1',
+		'password' => 'diego4rmando',
 		'database' => 'zeroone1_escuinapa',
-		'prefix' => 'stg_',
+		'prefix' => 'esc_',
 		//'encoding' => 'utf8',
 	);
 
