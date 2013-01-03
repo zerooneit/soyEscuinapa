@@ -70,19 +70,7 @@
           
         
       <div>
-        <ul class="block-grid three-up ">
-          <?php for ($i =0 ; $i<10; $i++): ?>
-            <li>
-              <img src="http://placehold.it/200x113&text=Image">
-              <h5>Header pa ver como funciona con un texto demasiado largo.</h5>
-              <p>Donut danish chocolate cake tiramisu. Sweet roll brownie apple pie tart. Fruitcake jelly beans jelly sugar plum chocolate pudding macaroon liquorice. Sweet fruitcake pie ice cream muffin. Chocolate cake tootsie roll fruitcake cheesecake chocolate cupcake chupa chups gingerbread.[...]</p>
-            </li>
-          <?php endfor; ?>
-           <li>
-              <img src="http://placehold.it/200x113&text=Image">
-              <h5>Header pa ver como funciona con un texto demasiado largo y este distinto por que YOLO</h5>
-              <p>Donut danish chocolate cake tiramisu. Sweet roll brownie apple pie tart. Fruitcake jelly beans jelly sugar plum chocolate pudding macaroon liquorice. Sweet fruitcake pie ice cream muffin. Chocolate cake tootsie roll fruitcake cheesecake chocolate cupcake chupa chups gingerbread.[...]</p>
-            </li>
+        <ul id ="secondary-news" class="block-grid three-up ">
           
         </ul>
       </div>
@@ -159,5 +147,4 @@
 <div id="from-esc"></div>
 <div id="from-google"></div>
 
-<pre><?php print_r($news); ?></pre>
 <!-- End Footer -->
