@@ -25,10 +25,16 @@
                 }
             }
 			
+			if (isset($extra_templates) && !empty($extra_templates) && is_array($extra_templates)){
+                foreach ($extra_templates as $f) {
+                    echo $this->Html->tag('script','', array('type'=>'text/x-jquery-tmpl', 'id' => $f, 'src' => '/js/templates/'.$f.'.js'));
+               	}
+            }
+			
 			if (isset($extra_scripts) && !empty($extra_scripts) && is_array($extra_scripts)){
-                foreach ($extra_scripts as $f) {
-                    echo $this->Html->script($f);
-                }
+               // foreach ($extra_scripts as $f) {
+                    echo $this->Html->script($extra_scripts);
+               // }
             }
 
             echo $this->Html->script("app"); 

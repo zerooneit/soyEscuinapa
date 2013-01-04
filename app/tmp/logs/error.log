@@ -790,3 +790,45 @@
 #6 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
 #7 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #8 {main}
+2013-01-04 13:41:31 Error: [MissingControllerException] Controller class TemplatesController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 13:56:11 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 13:57:53 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 14:27:36 Error: [MissingControllerException] Controller class JsController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 14:38:36 Error: [MissingControllerException] Controller class Placehold.itController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 14:38:36 Error: [MissingControllerException] Controller class Placehold.itController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 14:44:24 Error: [MissingControllerException] Controller class Placehold.itController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 14:44:24 Error: [MissingControllerException] Controller class Placehold.itController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 14:44:48 Error: [MissingControllerException] Controller class Placehold.itController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 14:45:15 Error: [MissingControllerException] Controller class Placehold.itController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 14:45:25 Error: [MissingControllerException] Controller class Placehold.itController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 14:45:36 Error: [MissingControllerException] Controller class Placehold.itController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 14:48:02 Error: [MissingControllerException] Controller class Placehold.itController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 14:48:51 Error: [MissingControllerException] Controller class Placehold.itController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}

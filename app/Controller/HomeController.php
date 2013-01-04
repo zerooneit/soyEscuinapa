@@ -51,6 +51,7 @@ class HomeController extends AppController {
 		$extra_plugins = array();
 		$extra_values = array();
 		$extra_scripts = array();
+		$extra_templates = array();
 		$title_for_layout = '';
 		$this->set(compact('extra_styles','extra_plugins','extra_classes','extra_values', 'title_for_layout','extra_scripts'));
 		parent::beforeFilter();
@@ -74,16 +75,19 @@ class HomeController extends AppController {
 		);
 
 		$extra_plugins = array(
-			
+			'jquery.tmpl.min',
+			'jquery.tmplPlus.min'
 		);
 		
 		$extra_scripts = array(
 			'main'
 		);
+		
+		
 
 		$title_for_layout = 'Escuin@pa';
 
-		$this->set(compact('extra_styles','extra_values','extra_plugins', 'extra_scripts','title_for_layout', 'news'));
+		$this->set(compact('extra_styles','extra_values','extra_plugins', 'extra_scripts','title_for_layout', 'extra_templates','news'));
 		
 		$this->layout = 'base';
 	}

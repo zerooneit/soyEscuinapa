@@ -144,7 +144,6 @@
     </div>
   </div>
 </footer>
-<div id="from-esc"></div>
-<div id="from-google"></div>
+
 
 <!-- End Footer -->
