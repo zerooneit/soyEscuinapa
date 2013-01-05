@@ -17,7 +17,7 @@
 				},
 				max: 3,
 				entryTemplate: '<article class="news twelve columns">'+
-									'<div class="three columns news-thumb"><img src="http://placehold.it/100x100&text=News"></div>'+
+									'<div class="three columns news-thumb"><img src="/img/icons/new_main.png"></div>'+
 									'<div class="nine columns news-body">'+
 									'<h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5>'+
 									'<p><!=contentSnippet!></p>'+
@@ -31,7 +31,7 @@
 				},
 				max: 9,
 				entryTemplate: 	'<li style="height: 350px;" >'+
-									'<img src="http://placehold.it/200x113&text=News">'+
+									'<img src="/img/icons/new_second.png">'+
 									'<div style="overflow-y:hidden; height: 130px"><h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5></div>'+
 									'<p><!=contentSnippet!></p>'+
 								'</li>'

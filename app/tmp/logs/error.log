@@ -832,3 +832,9 @@
 2013-01-04 14:48:51 Error: [MissingControllerException] Controller class Placehold.itController could not be found.
 #0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-01-04 18:37:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 18:37:09 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
