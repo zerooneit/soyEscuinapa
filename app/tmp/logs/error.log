@@ -838,3 +838,43 @@
 2013-01-04 18:37:09 Error: [MissingControllerException] Controller class ImgController could not be found.
 #0 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #1 {main}
+2013-01-04 20:34:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 20:34:42 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 20:45:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 20:45:07 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 20:49:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 20:49:55 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 20:50:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 20:50:56 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 20:52:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-04 20:52:49 Error: [MissingControllerException] Controller class ImgController could not be found.
+#0 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#1 {main}
+2013-01-05 00:14:02 Error: [MissingViewException] View file "/var/www/sites/stg.escuinapa.zero-oneit.com/app/View/Pages/historia_de_escuinapa.ctp" is missing.
+#0 /var/www/sites/stg.escuinapa.zero-oneit.com/lib/Cake/View/View.php(441): View->_getViewFileName('historia_de_esc...')
+#1 /var/www/sites/stg.escuinapa.zero-oneit.com/lib/Cake/Controller/Controller.php(956): View->render('historia_de_esc...', NULL)
+#2 /var/www/sites/stg.escuinapa.zero-oneit.com/app/Controller/PagesController.php(73): Controller->render('historia_de_esc...')
+#3 [internal function]: PagesController->display('historia_de_esc...')
+#4 /var/www/sites/stg.escuinapa.zero-oneit.com/lib/Cake/Controller/Controller.php(485): ReflectionMethod->invokeArgs(Object(PagesController), Array)
+#5 /var/www/sites/stg.escuinapa.zero-oneit.com/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#6 /var/www/sites/stg.escuinapa.zero-oneit.com/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(PagesController), Object(CakeRequest), Object(CakeResponse))
+#7 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#8 {main}

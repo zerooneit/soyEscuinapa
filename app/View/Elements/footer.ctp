@@ -4,6 +4,8 @@
        
               
         <?php  // Scripts Block
+            
+           
             echo $this->Html->script("vendor/jquery-1.8.2.min");
             echo $this->Html->script("foundation.min"); 
 
