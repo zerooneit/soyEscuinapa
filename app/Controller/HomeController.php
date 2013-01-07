@@ -44,6 +44,8 @@ class HomeController extends AppController {
  * @var array
  */
 	public $uses = array();
+	
+	public $helpers = array('Mobile');
 
 	public function beforeFilter(){
 		$extra_styles = array();

@@ -19,3 +19,7 @@ a.news-title, a.news-title:hover {
 	color: #666;
 }
 
+
+.advert-long .advert-wrapper{
+	overflow: hidden;
+}

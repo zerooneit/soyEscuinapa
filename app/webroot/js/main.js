@@ -10,6 +10,10 @@
 		
 		self.feeds = [];
 		
+		self.long_ads = function(){
+			
+		};
+		
 		self.init = function() {
 			$('#mainNews').feeds({
 				feeds: {
@@ -17,7 +21,7 @@
 				},
 				max: 3,
 				entryTemplate: '<article class="news twelve columns">'+
-									'<div class="three columns news-thumb"><img src="/img/icons/new_main.png"></div>'+
+									'<div class="three columns news-thumb"><img src="/img/icons/news_main.png"></div>'+
 									'<div class="nine columns news-body">'+
 									'<h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5>'+
 									'<p><!=contentSnippet!></p>'+
@@ -31,10 +35,19 @@
 				},
 				max: 9,
 				entryTemplate: 	'<li style="height: 350px;" >'+
-									'<img src="/img/icons/new_second.png">'+
+									'<img src="/img/icons/news_second.png">'+
 									'<div style="overflow-y:hidden; height: 130px"><h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5></div>'+
 									'<p><!=contentSnippet!></p>'+
 								'</li>'
+			});
+			
+			long_adverts = $(".advert-long");
+			$(window).resize(function() {
+				if (long_adverts.width() >= 468){
+					long_adverts.find('.advert-wrapper').width('468');
+				}else {
+					long_adverts.find('.advert-wrapper').width('234');
+				}
 			});
 			
 			

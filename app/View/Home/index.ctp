@@ -7,12 +7,16 @@
   </header><br /><br /><br />
 <!-- End Header -->
      
-
+ <?php 
+ 	if ($this->Mobile->isMobile()){
+ 		echo "es mobil";
+ 	}
+ ?>
 <!-- Main Section -->
 <section id="container" class="row" style="padding: 10px;">
   <div class="twelve columns">
     <div class="three columns sidebar">
-      <img src="http://placehold.it/500x500&text=Image">
+      <img src="/img/escuinapa_gde.gif">
 
       
       <h4 class="title">Escuinapa</h4>
@@ -20,7 +24,7 @@
       <p>Del Nahualt <b>itz-cui-na-pan</b> el cual esta compuesto por itzquintli "perro" a de atl "agua" y pan "en"; el topónimo significa por lo tanto "en el agua del perro" o "donde hay perros del agua"</p><hr>
 
       <div>
-      	<div class="six columns"><a href="/pages/historia-de-escuinapa/">Historia</a></div>
+      	<div class="six columns"><a href="/pages/historia_de_escuinapa/">Historia</a></div>
       	<div class="six columns"><a href="#">Información</a></div>
       </div>
       <br /><br />
@@ -51,7 +55,7 @@
       <br />
 
       <div class="advert-long" >
-      	<div class="center" style="width: 480px;">
+      	<div class="center advert-wrapper">
 	        <script type="text/javascript"><!--
 				google_ad_client = "ca-pub-6512492483734639";
 				/* escuinapa-longad */
