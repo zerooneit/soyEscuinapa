@@ -109,7 +109,7 @@
           <div>
             <ul class="block-grid two-up ">
               <?php for ($i =0 ; $i<4; $i++): ?>
-                <li><img src="http://placehold.it/200x200&text=side-ad"></li>
+                <li><img src="http://placehold.it/200x200/ffffff/333333/&text=publicidad"></li>
               <?php endfor; ?>
               
             </ul>

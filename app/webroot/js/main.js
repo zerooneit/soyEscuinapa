@@ -36,7 +36,7 @@
 				max: 9,
 				entryTemplate: 	'<li style="height: 350px;" >'+
 									'<img src="/img/icons/news_second.png">'+
-									'<div style="overflow-y:hidden; height: 130px"><h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5></div>'+
+									'<div style="overflow-y:hidden; "><h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5></div>'+
 									'<p><!=contentSnippet!></p>'+
 								'</li>'
 			});
