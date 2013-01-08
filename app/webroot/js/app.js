@@ -27,7 +27,8 @@
 			bullets: true,
 			advanceSpeed: 7000,
 			captions: true,
-			animation: 'fade'
+			animation: 'fade',
+			bulletThumbs: true
 		});
 	});
 

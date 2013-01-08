@@ -105,15 +105,22 @@ class HomeController extends AppController {
 		$extra_values = array(
 			'init.values'
 		);
-		
+		$file =  WWW_ROOT.'galleries_data'.DS.$gallery_name.'.json';
 		if (empty($gallery_name) ){
 			$gallery_name = Inflector::slug('Galerias');
 			$isIndex = 'gallery_index';
 		}
 		
+		if ( file_exists($file) ){
+			
+			$data = json_decode(file_get_contents($file));
+		}
+		
+		if (empty($data)){ $this->redirect('404');}
+		
 		$title_for_layout = 'Galer&iacute;a - '.Inflector::humanize($gallery_name);
 
-		$this->set(compact('extra_styles','extra_values','extra_plugins','title_for_layout','path'));
+		$this->set(compact('extra_styles','extra_values','extra_plugins','title_for_layout','path','data'));
 		
 		$this->layout = 'base';
 		
