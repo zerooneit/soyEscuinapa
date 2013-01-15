@@ -7,11 +7,7 @@
   </header><br /><br /><br />
 <!-- End Header -->
      
- <?php 
- 	if ($this->Mobile->isMobile()){
- 		echo "es mobil";
- 	}
- ?>
+ 
 <!-- Main Section -->
 <section id="container" class="row" style="padding: 10px;">
   <div class="twelve columns">
@@ -28,6 +24,7 @@
       	<div class="six columns"><a href="#">Información</a></div>
       </div>
       <br /><br />
+      <!-- TO DO: Improves Microsites 
       <div>
 	      <h4 class="small">Micrositios</h4>
 	      <div class="widget-gallery">
@@ -41,6 +38,7 @@
 	          </ul>
 	      </div>	
       </div>
+     --> 
       
     </div> 
 
@@ -84,15 +82,13 @@
         <div class="widget-gallery">
           <h5>Galer&iacuteas</h5>
           <ul class="side-nav">
-            <li><a href="/gallery/galeria_1/">Galer&iacutea 1</a></li>
-		    <li><a href="/gallery/galeria_2/">Galer&iacutea 2</a></li>
-		    <li><a href="/gallery/galeria_3/">Galer&iacutea 3</a></li>
-		    <li><a href="/gallery/galeria_4/">Galer&iacutea 4</a></li>
-		    <li><a href="/gallery/galeria_n/">Galer&iacutea n</a></li>
+            <li><a href="/gallery/escuinapa/">Escuinapa</a></li>
+		    <li><a href="/gallery/esplendor_escuinapa/">Esplendor de Escuinapa</a></li>
+		    
           </ul>
         </div>
         
-
+		<!-- TO DO: Improvements Events
         <div class="widget-events">
         	<h5>Eventos</h5>
         	<ul class="side-nav">
@@ -103,6 +99,7 @@
 		        <li><a href="#">Evento n</a></li>
           	</ul>
         </div>
+       -->
 
         <div class="widget-ads">
           <h5>Publicidad</h5>
@@ -113,6 +110,13 @@
               <?php endfor; ?>
               
             </ul>
+          </div>
+        </div>
+        
+        <div class="widget-twitter">
+          <h5>Twitter</h5>
+          <div id="twitter-feed">
+            
           </div>
         </div>
         

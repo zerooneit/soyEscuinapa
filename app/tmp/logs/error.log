@@ -1219,3 +1219,8 @@
 #1 /var/www/sites/stg.escuinapa.zero-oneit.com/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
 #2 /var/www/sites/stg.escuinapa.zero-oneit.com/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
 #3 {main}
+2013-01-10 17:06:10 Error: [MissingActionException] Action HomeController::404() could not be found.
+#0 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(186): Controller->invokeAction(Object(CakeRequest))
+#1 /home/dresendez/projects/escuinapa/lib/Cake/Routing/Dispatcher.php(161): Dispatcher->_invoke(Object(HomeController), Object(CakeRequest), Object(CakeResponse))
+#2 /home/dresendez/projects/escuinapa/app/webroot/index.php(97): Dispatcher->dispatch(Object(CakeRequest), Object(CakeResponse))
+#3 {main}

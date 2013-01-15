@@ -78,6 +78,7 @@ class HomeController extends AppController {
 
 		$extra_plugins = array(
 			'jquery.feeds.min',
+			'jquery.ztwitterfeed.min',
 			'jquery.tmpl.min',
 			'jquery.tmplPlus.min'
 		);

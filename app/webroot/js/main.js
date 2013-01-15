@@ -6,6 +6,7 @@
 		self = {};
 		self.gob_feed = 'http://escuinapa.gob.mx/index.php/prensa?format=feed';
 		self.google_feed = 'http://news.google.com.mx/news?hl=es&gl=mx&q=escuinapa&um=1&ie=UTF-8&output=rss';
+		self.twitter = 'http://search.twitter.com/search.rss?q=from:Escuinapa&rpp=100';
 		
 		
 		self.feeds = [];
@@ -40,6 +41,12 @@
 									'<p><!=contentSnippet!></p>'+
 								'</li>'
 			});
+			
+			$('#twitter-feed').twitterfeed('escuinapa_', {
+					limit: 5,
+					tweettime: false
+			});
+			
 			
 			long_adverts = $(".advert-long");
 			$(window).resize(function() {
