@@ -1,5 +1,27 @@
 ;(function($, window, undefined) {
 	
+	var trimText = function( string, length ){
+		length = length-3;
+		var newst = string.split(" ");
+		var contador = 0;
+		var finalstr = '';
+		 
+		for(var lar=0; lar<newst.length; ++lar) {
+			if(contador >= length)
+				break;
+			else{
+				contador += newst[lar].length;
+				finalstr += newst[lar]+' ';
+				if(finalstr.length-1 > length){
+					finalstr = finalstr.substr(0, finalstr.indexOf(newst[lar], 0));
+					break;
+				}
+			}
+		}
+		return (finalstr != string) ?
+				finalstr.substr(0, finalstr.length-1)+'…' :
+				finalstr;	
+	};
 	
 	var app = function() {
 
@@ -21,8 +43,12 @@
 					feed1:self.gob_feed
 				},
 				max: 3,
+				loadingTemplate: '<p>Cargando Entradas</p>',
+				preprocess: function( feed ){
+					this.title = trimText(this.title, 50);
+				},
 				entryTemplate: '<article class="news twelve columns">'+
-									'<div class="three columns news-thumb"><img src="/img/icons/news_main.png"></div>'+
+									'<div class="three columns news-thumb"><img src="http://placehold.it/106x106/ffffff/333333/&text=Noticia"></div>'+
 									'<div class="nine columns news-body">'+
 									'<h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5>'+
 									'<p><!=contentSnippet!></p>'+
@@ -34,9 +60,14 @@
 				feeds: {
 					feed1:self.google_feed
 				},
-				max: 9,
-				entryTemplate: 	'<li style="height: 350px;" >'+
-									'<img src="/img/icons/news_second.png">'+
+				max: 10,
+				loadingTemplate: '<p>Cargando Entradas</p>',
+				preprocess: function( feed ){
+					this.title = trimText(this.title, 50);
+					this.contentSnippet = trimText(this.contentSnippet, 100);
+				},
+				entryTemplate: 	'<li style="height: 275px;" >'+
+									'<img src="http://placehold.it/128x72/ffffff/333333/&text=Noticia">'+
 									'<div style="overflow-y:hidden; "><h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5></div>'+
 									'<p><!=contentSnippet!></p>'+
 								'</li>'

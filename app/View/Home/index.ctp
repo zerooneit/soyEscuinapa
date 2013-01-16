@@ -18,11 +18,15 @@
       <h4 class="title">Escuinapa</h4>
 
       <p>Del Nahualt <b>itz-cui-na-pan</b> el cual esta compuesto por itzquintli "perro" a de atl "agua" y pan "en"; el topónimo significa por lo tanto "en el agua del perro" o "donde hay perros del agua"</p><hr>
-
+	  <h6>S&iacute;guenos en:</h6>	
       <div>
-      	<div class="six columns"><a href="/pages/historia_de_escuinapa/">Historia</a></div>
-      	<div class="six columns"><a href="#">Información</a></div>
+      	<div class="three columns"><a href="https://www.facebook.com/escuinapenses" target="_blank"><img src="/img/icons/facebook.png" alt="S&iacute;guenos en Facebook" /></a></div>
+      	<div class="three columns"><a href="https://twitter.com/Escuinapa_" target="_blank"><img src="/img/icons/twitter.png" alt="S&iacute;guenos en Twitter" /></a></div>
+      	<div class="three columns"><a href="#"><img src="/img/icons/wordpress.png" alt="S&iacute;gue nuestro Blog" /></a></div>
+      	<div class="three columns"><a href="https://www.youtube.com/user/escuinapa83" target="_blank"><img src="/img/icons/youtube.png" alt="S&iacute;gue Nuestro Canal" /></a></div>
       </div>
+      
+      <hr>
       <br /><br />
       <!-- TO DO: Improves Microsites 
       <div>
@@ -72,7 +76,7 @@
           
         
       <div>
-        <ul id ="secondary-news" class="block-grid three-up ">
+        <ul id ="secondary-news" class="block-grid two-up ">
           
         </ul>
       </div>
@@ -100,23 +104,41 @@
           	</ul>
         </div>
        -->
-
-        <div class="widget-ads">
-          <h5>Publicidad</h5>
-          <div>
-            <ul class="block-grid two-up ">
-              <?php for ($i =0 ; $i<4; $i++): ?>
-                <li><img src="http://placehold.it/200x200/ffffff/333333/&text=publicidad"></li>
-              <?php endfor; ?>
-              
-            </ul>
-          </div>
-        </div>
         
         <div class="widget-twitter">
           <h5>Twitter</h5>
-          <div id="twitter-feed">
-            
+          <div id="twitter-feed"></div>
+        </div>
+        
+        <div class="widget-ads">
+          <div>
+          	<article class="sidebar-ads row">
+          		<div class="sb-ads-title">¿Te gustan los perros?</div>
+          		<div class="sb-ads-url">web</div>
+          		<div class="sb-ads-body">
+          			<div class="four columns sb-ads-img"><img src="http://placehold.it/150x150/ffffff/333333/&text=publicidad"> </div>
+          			<div class="eight columns sb-ads-content"><p>Ven a la veterinaria fulanita, donde tenemos todo para tu mascota</p></div>
+          		</div>
+          	</article>
+          	
+          	<article class="sidebar-ads row">
+          		<div class="sb-ads-title">Viajes</div>
+          		<div class="sb-ads-url">web</div>
+          		<div class="sb-ads-body">
+          			<div class="four columns sb-ads-img"><img src="http://placehold.it/150x150/ffffff/333333/&text=ad"> </div>
+          			<div class="eight columns sb-ads-content"><p>Viajes el vago, donde podemos ofrecerte infinidad de opciones para viajar</p></div>
+          		</div>
+          	</article>
+          	
+          	<article class="sidebar-ads row">
+          		<div class="sb-ads-title">Fotograf&iacute;a</div>
+          		<div class="sb-ads-url">web</div>
+          		<div class="sb-ads-body">
+          			<div class="four columns sb-ads-img"><img src="http://placehold.it/150x150/ffffff/333333/&text=ad"> </div>
+          			<div class="eight columns sb-ads-content"><p>Para todo tipo de eventos, fotograf&iacute;as Pacheco.</p></div>
+          		</div>
+          	</article>
+           
           </div>
         </div>
         

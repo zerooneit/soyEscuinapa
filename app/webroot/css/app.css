@@ -108,6 +108,37 @@ article { margin-top: 15px !important;}
 }
 
 /* -----------------------------------------
+   Advert
+----------------------------------------- */
+.sidebar-ads {
+	border-top: 1px solid #ebebeb;
+	
+}
+
+.sidebar-ads:last-child {
+	border-bottom: 1px solid #ebebeb;
+}
+
+.sidebar-ads .sb-ads-title {
+	font-size: 13px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.sidebar-ads .sb-ads-url {
+	font-size: 11px;
+	padding: 0px 5px 5px 5px;
+	color: #aaa;
+}
+
+.sb-ads-content p { font-size: 13px;}
+
+.sb-ads-content {
+	height: 72px;
+	font-size:13px;
+}
+
+/* -----------------------------------------
    Main
 ----------------------------------------- */
 footer.page-main {height: 180px;background: #fff; margin-top: 10px; border-top: 1px solid #ebebeb;} 
