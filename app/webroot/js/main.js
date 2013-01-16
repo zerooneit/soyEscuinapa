@@ -48,7 +48,7 @@
 					this.title = trimText(this.title, 50);
 				},
 				entryTemplate: '<article class="news twelve columns">'+
-									'<div class="three columns news-thumb"><img src="http://placehold.it/106x106/ffffff/333333/&text=Noticia"></div>'+
+									'<div class="three columns news-thumb"><img src="http://placehold.it/106x106/&text=Noticia"></div>'+
 									'<div class="nine columns news-body">'+
 									'<h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5>'+
 									'<p><!=contentSnippet!></p>'+
@@ -67,7 +67,7 @@
 					this.contentSnippet = trimText(this.contentSnippet, 100);
 				},
 				entryTemplate: 	'<li style="height: 275px;" >'+
-									'<img src="http://placehold.it/128x72/ffffff/333333/&text=Noticia">'+
+									'<img src="http://placehold.it/267x72/&text=Noticia">'+
 									'<div style="overflow-y:hidden; "><h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5></div>'+
 									'<p><!=contentSnippet!></p>'+
 								'</li>'

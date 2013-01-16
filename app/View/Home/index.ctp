@@ -83,17 +83,22 @@
     </div> 
 
      <div id="right-sidebar" class="three columns  sidebar">
-        <div class="widget-gallery">
+        <div class="widget row">
           <h5>Galer&iacuteas</h5>
-          <ul class="side-nav">
-            <li><a href="/gallery/escuinapa/">Escuinapa</a></li>
-		    <li><a href="/gallery/esplendor_escuinapa/">Esplendor de Escuinapa</a></li>
-		    
-          </ul>
+          <div id="gallery-container">
+          	<a href="#" alt="" class="gallery row">
+	          	<div class="gl-title">Escuinapa de Hidalgo</div>
+	          	<div class="gl-author">por <strong>alguien</strong></div>
+	          	<div class="gl-body">
+	          		<div class="four columns gl-img"><img src="http://placehold.it/150x150/&text=ad"> </div>
+	          		<div class="eight columns gl-descrip"><p>Ven a la veterinaria fulanita, donde tenemos todo para tu mascota</p></div>
+	          	</div>
+          	</a>	
+          </div>
         </div>
         
 		<!-- TO DO: Improvements Events
-        <div class="widget-events">
+        <div class="widget row">
         	<h5>Eventos</h5>
         	<ul class="side-nav">
 	            <li><a href="#">Evento 1</a></li>
@@ -105,18 +110,18 @@
         </div>
        -->
         
-        <div class="widget-twitter">
+        <div class="widget row">
           <h5>Twitter</h5>
           <div id="twitter-feed"></div>
         </div>
         
-        <div class="widget-ads">
-          <div>
+        <div class="widget row">
+          <div id="ads-container">
           	<article class="sidebar-ads row">
           		<div class="sb-ads-title">¿Te gustan los perros?</div>
           		<div class="sb-ads-url">web</div>
           		<div class="sb-ads-body">
-          			<div class="four columns sb-ads-img"><img src="http://placehold.it/150x150/ffffff/333333/&text=publicidad"> </div>
+          			<div class="four columns sb-ads-img"><img src="http://placehold.it/150x150/&text=ad"> </div>
           			<div class="eight columns sb-ads-content"><p>Ven a la veterinaria fulanita, donde tenemos todo para tu mascota</p></div>
           		</div>
           	</article>
@@ -125,7 +130,7 @@
           		<div class="sb-ads-title">Viajes</div>
           		<div class="sb-ads-url">web</div>
           		<div class="sb-ads-body">
-          			<div class="four columns sb-ads-img"><img src="http://placehold.it/150x150/ffffff/333333/&text=ad"> </div>
+          			<div class="four columns sb-ads-img"><img src="http://placehold.it/150x150/&text=ad"> </div>
           			<div class="eight columns sb-ads-content"><p>Viajes el vago, donde podemos ofrecerte infinidad de opciones para viajar</p></div>
           		</div>
           	</article>
@@ -134,7 +139,7 @@
           		<div class="sb-ads-title">Fotograf&iacute;a</div>
           		<div class="sb-ads-url">web</div>
           		<div class="sb-ads-body">
-          			<div class="four columns sb-ads-img"><img src="http://placehold.it/150x150/ffffff/333333/&text=ad"> </div>
+          			<div class="four columns sb-ads-img"><img src="http://placehold.it/150x150/&text=ad"> </div>
           			<div class="eight columns sb-ads-content"><p>Para todo tipo de eventos, fotograf&iacute;as Pacheco.</p></div>
           		</div>
           	</article>

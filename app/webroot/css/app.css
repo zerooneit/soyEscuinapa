@@ -43,8 +43,33 @@ p {
 
 article { margin-top: 15px !important;}
 
+/* -----------------------------------------
+   WIDGET
+----------------------------------------- */
+.widget {margin: 15px 0 !important;}
 
+/* -----------------------------------------
+   GALLERY
+----------------------------------------- */
+a.gallery, a.gallery:hover{
+	color: #666;
+	display: block;
+}
+.gallery:last-child {
+	border-bottom: 1px solid #ebebeb;
+}
 
+.gallery .gl-title {
+	font-size: 15px;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.gallery .gl-author {
+	font-size: 11px;
+	padding: 0px 5px 5px 5px;
+	color: #aaa;
+}
 /* -----------------------------------------
    TWITTER
 ----------------------------------------- */
@@ -68,6 +93,8 @@ article { margin-top: 15px !important;}
 
 .twitterFeed * p {
 	font-size: 13px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
 }
 .twitterFeed * img {
 	width: 24px;
@@ -131,7 +158,11 @@ article { margin-top: 15px !important;}
 	color: #aaa;
 }
 
-.sb-ads-content p { font-size: 13px;}
+.sb-ads-content p { 
+	font-size: 13px;
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
 
 .sb-ads-content {
 	height: 72px;

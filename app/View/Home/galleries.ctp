@@ -54,5 +54,5 @@
     <a href="http://disqus.com" class="dsq-brlink">comments powered by <span class="logo-disqus">Disqus</span></a>
     
 </div>
-<pre><?=print_r($data,true);?></pre>
+
 
