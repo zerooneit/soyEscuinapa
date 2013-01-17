@@ -153,26 +153,28 @@ class HomeController extends AppController {
 			'init.values'
 		);
 		
-		$gl = $this->Galleries->find('list', array('contidtions' => array('Lower(Galleries.gallery_name) = ' => strtolower(Inflector::humanize($gallery_name)) ) ));
+		$gl = $this->Galleries->findByGalleryName( strtolower(Inflector::humanize($gallery_name)) );
+		
 		$galleries = array(
 			'gallery_name' => $gallery_name,
-			'humanize' => Inflector::humanize($gallery_name),
+			'humanize' => Inflector::slug($gallery_name),
 			'db_galleries' =>  $gl
+			
 		);
-		$this->set('gl', $this->Galleries->getDataSource()->getLog(false));
 		
-		$file =  WWW_ROOT.'galleries_data'.DS.$gallery_name.'.json';
+		
+		
 		if (empty($gallery_name) ){
 			$gallery_name = Inflector::slug('Galerias');
 			$isIndex = 'gallery_index';
 		}
 		
-		if ( file_exists($file) ){
+		if ( !empty($gl) ){
 			
 			$data = json_decode(file_get_contents($file));
 		}
 		
-		if (empty($data)){ $this->redirect('404');}
+		//if (empty($data)){ $this->redirect('404');}
 		
 		$title_for_layout = 'Galer&iacute;a - '.Inflector::humanize($gallery_name);
 
@@ -180,7 +182,7 @@ class HomeController extends AppController {
 		
 		$this->layout = 'base';
 		
-		//if (!empty($isIndex))	$this->render($isIndex);
+		if (!empty($isIndex))	$this->render($isIndex);
 		
 	}
 }
