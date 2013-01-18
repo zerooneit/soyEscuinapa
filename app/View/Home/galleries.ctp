@@ -2,19 +2,21 @@
 <pre>
 <?php
 	
-	echo print_r($galleries, true);
+	//echo print_r($galleries, true);
 	
 ?>
 </pre>
 <div class="row">
 	<h4><? echo str_replace('Galer&iacute;a - ', '', $title_for_layout) ; ?></h4>
-	<p><?=$data->description;?></p>
+	<p><?=utf8_encode($data['Gallery']['gallery_description']);?></p>
 	<div class="row">
 		<div class="eight columns">
 	      <div id="slider">
 	      	<?php 
-	      	foreach ($data->files as $file): 
-				echo $this->Html->image('galleries'.DS.$data->folder.DS.$file, array('alt' => $data->folder.'-'.$file));
+	      	foreach ($data['Media'] as $media): 
+				$img = json_decode($media['media_object']);
+				
+				echo $this->Html->image($img->url, array('alt' => $img->alt));
 	      	endforeach; 
 	      	?>
 	      </div>
@@ -25,8 +27,9 @@
 	    <div class="four columns">
 	    	<ul class="block-grid four-up mobile-five-up">
 	    	<?php 
-	      	foreach ($data->files as $file): 
-				echo '<li>',$this->Html->image('galleries'.DS.$data->folder.DS.$file, array('alt' => $data->folder.'-'.$file)),'</li>';
+	      	foreach ($data['Media'] as $media): 
+				$img = json_decode($media['media_object']);
+				echo '<li><a href="#">',$this->Html->image($img->url, array('alt' => $img->alt)),'</a></li>';
 	      	endforeach; 
 	      	?>
 	    	</ul>

@@ -43,7 +43,7 @@ class HomeController extends AppController {
  *
  * @var array
  */
-	public $uses = array('Authors', 'Galleries', 'Media', 'News');
+	public $uses = array('Author', 'Gallery', 'Media', 'New');
 	
 	public $helpers = array('Mobile');
 
@@ -56,48 +56,7 @@ class HomeController extends AppController {
 		$extra_templates = array();
 		$title_for_layout = '';
 		
-		
-		$this->Media->primaryKey = 'media_id';
-		
-		
-		
-		$this->Authors->primaryKey = 'author_id';
-		$this->Authors->bindModel(array('hasAndBelongToMay' => array(
-			'Galleries' =>
-				array(
-					'className'				 => 'Galleries',
-					'joinTable'              => 'authors_has_galleries',
-	                'foreignKey'             => 'author_id',
-	                'associationForeignKey'  => 'gallery_id'
-	               
-	                
-				)
-		)));
-		
-		
-		
-		$this->Galleries->primaryKey = 'gallery_id';
-		$this->Galleries->bindModel(array('hasAndBelongsToMany' => array(
-			'Authors' =>
-				array(
-					'className'				 => 'Authors',
-					'joinTable'              => 'authors_has_galleries',
-	                'foreignKey'             => 'gallery_id',
-	                'associationForeignKey'  => 'author_id'
-	             
-	                
-				),
-			'Media' =>
-				array(
-					'className'				 => 'Media',
-					'joinTable'              => 'gallery_has_media',
-	                'foreignKey'             => 'gallery_id',
-	                'associationForeignKey'  => 'media_id'
-	             
-	                
-				)
-		)));
-		
+				
 		$this->set(compact('extra_styles','extra_plugins','extra_classes','extra_values', 'title_for_layout','extra_scripts'));
 		parent::beforeFilter();
 	}
@@ -133,8 +92,30 @@ class HomeController extends AppController {
 		
 
 		$title_for_layout = 'Escuin@pa';
-
-		$this->set(compact('extra_styles','extra_values','extra_plugins', 'extra_scripts','title_for_layout', 'extra_templates'));
+		$galleries =  $this->Gallery->find('list', array(
+				'fields' => array(
+					'Gallery.gallery_name', 
+					'Gallery.gallery_description',
+					'Gallery.gallery_id',
+					
+				)
+			)
+		);
+		
+		$galleries = $authors = $this->Gallery->Author->find('list', array(
+				'fields' => array(
+									
+					'Author.author_email',
+					'Concat( Author.author_name, \' \',Author.author_lastname )'
+					
+				)
+			)
+		);
+		
+		
+		
+		
+		$this->set(compact('extra_styles','extra_values','extra_plugins', 'extra_scripts','title_for_layout', 'extra_templates', 'galleries'));
 		
 		$this->layout = 'base';
 	}
@@ -153,12 +134,12 @@ class HomeController extends AppController {
 			'init.values'
 		);
 		
-		$gl = $this->Galleries->findByGalleryName( strtolower(Inflector::humanize($gallery_name)) );
+		$data = $this->Gallery->findByGalleryName( strtolower(Inflector::humanize($gallery_name)) );
 		
 		$galleries = array(
 			'gallery_name' => $gallery_name,
 			'humanize' => Inflector::slug($gallery_name),
-			'db_galleries' =>  $gl
+			'db_galleries' =>  $data
 			
 		);
 		
@@ -169,12 +150,10 @@ class HomeController extends AppController {
 			$isIndex = 'gallery_index';
 		}
 		
-		if ( !empty($gl) ){
-			
-			$data = json_decode(file_get_contents($file));
+		if ( empty($data) && empty($isIndex) ){
+			throw new NotFoundException;
 		}
 		
-		//if (empty($data)){ $this->redirect('404');}
 		
 		$title_for_layout = 'Galer&iacute;a - '.Inflector::humanize($gallery_name);
 

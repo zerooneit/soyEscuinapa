@@ -10,3 +10,10 @@
 		"011.jpg","012.jpg","013.jpg","015.jpg","016.jpg","017.jpg"
 	]
 }
+
+{
+	'name':'',
+	'description':'',
+	'url':'/img/gallery/001.jpg',
+	'alt':''
+}

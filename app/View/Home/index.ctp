@@ -179,6 +179,6 @@
     </div>
   </div>
 </footer>
-
+<pre><?=print_r($galleries, true);?></pre>
 
 <!-- End Footer -->
