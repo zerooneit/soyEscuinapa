@@ -86,14 +86,25 @@
         <div class="widget row">
           <h5>Galer&iacuteas</h5>
           <div id="gallery-container">
-          	<a href="#" alt="" class="gallery row">
-	          	<div class="gl-title">Escuinapa de Hidalgo</div>
-	          	<div class="gl-author">por <strong>alguien</strong></div>
+          	<?php foreach ($this->Html->getGalleries() as $Gallery): ?>
+          	<a href="/gallery/<?=Inflector::slug($Gallery['Gallery']['gallery_name']);?>" alt="<?=utf8_encode($Gallery['Gallery']['gallery_name']);?>" class="gallery row">
+	          	<div class="gl-title"><?=$Gallery['Gallery']['gallery_name']?></div>
+	          	<?php 
+	          	$authors = $this->Html->getAuthorsFromGallery(intval($Gallery['Gallery']['gallery_id']));
+	          	if (count($authors) > 1){
+	          		$Author	= 'Varios';
+	          	}else{
+	          		echo "<!-- <pre>", print_r($authors,true), "</pre> -->";	
+	          		$Author	= $authors[0]['Author']['author_name'].' '.$authors[0]['Author']['author_lastname'];
+	          	} 
+	          	?>
+	          	<div class="gl-author">por <strong><?=$Author;?></strong></div>
 	          	<div class="gl-body">
 	          		<div class="four columns gl-img"><img src="http://placehold.it/150x150/&text=ad"> </div>
-	          		<div class="eight columns gl-descrip"><p>Ven a la veterinaria fulanita, donde tenemos todo para tu mascota</p></div>
+	          		<div class="eight columns gl-descrip"><p><?=utf8_encode($Gallery['Gallery']['gallery_description']);?></p></div>
 	          	</div>
-          	</a>	
+          	</a>
+          	<?php endforeach; ?>	
           </div>
         </div>
         
@@ -179,6 +190,6 @@
     </div>
   </div>
 </footer>
-<pre><?=print_r($galleries, true);?></pre>
+<pre><?=print_r($this->Html->getGalleries(), true);?></pre>
 
 <!-- End Footer -->

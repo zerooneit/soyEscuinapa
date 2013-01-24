@@ -93,15 +93,11 @@ class HomeController extends AppController {
 
 		$title_for_layout = 'Escuin@pa';
 		
-		$galleries = $this->Gallery->query("SELECT Gallery.gallery_name, Gallery.gallery_description, CONCAT(Author.author_name, ' ',Author.author_lastname) , 
-											Author.author_email FROM esc_galleries AS Gallery INNER JOIN
-											esc_authors_has_galleries AS GalleryHasAuthors on Gallery.gallery_id = GalleryHasAuthors.gallery_id INNER JOIN
-											esc_authors AS Author ON Author.author_id = GalleryHasAuthors.author_id");
 		
 		
 		
 		
-		$this->set(compact('extra_styles','extra_values','extra_plugins', 'extra_scripts','title_for_layout', 'extra_templates', 'galleries'));
+		$this->set(compact('extra_styles','extra_values','extra_plugins', 'extra_scripts','title_for_layout', 'extra_templates'));
 		
 		$this->layout = 'base';
 	}

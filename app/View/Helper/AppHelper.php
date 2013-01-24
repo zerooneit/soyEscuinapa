@@ -32,4 +32,38 @@ App::uses('Helper', 'View');
  */
 class AppHelper extends Helper {
 	
+	public function getGalleries(){
+		//let $modelName be User  
+		App::import("Model", "Gallery");  
+		$model = new Gallery();  
+		$galleries = $model->query("SELECT Gallery.gallery_id, Gallery.gallery_name, Gallery.gallery_description FROM esc_galleries AS Gallery
+									JOIN (SELECT FLOOR(
+									  RAND( ) * (
+									    SELECT MAX( gallery_id ) FROM esc_galleries)
+									  ) AS rand_id
+									) AS GalleryRand
+									WHERE Gallery.gallery_id >= GalleryRand.rand_id
+									ORDER BY Gallery.gallery_id ASC
+									LIMIT 3 ");
+		
+			return $galleries;
+		
+	}
+	
+	public function getAuthorsFromGallery($gallery_id){
+		
+		if (!is_int($gallery_id)) return array();
+		
+		App::import("Model", "Author");  
+		$model = new Author();
+		$authors = $model->query("
+			SELECT * FROM esc_authors AS Author LEFT JOIN esc_authors_has_galleries AS AuthorHasGalleries ON 
+				Author.author_id = AuthorHasGalleries.author_id
+			WHERE
+				AuthorHasGalleries.gallery_id =". $gallery_id ."
+		");
+		
+		return $authors;  
+	}	
+	
 }
