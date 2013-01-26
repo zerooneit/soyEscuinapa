@@ -27,17 +27,17 @@
  */
 	Router::connect('/',array('controller' => 'home', 'action'=>'index'));
 	
-	Router::connect('/gallery',array('controller' => 'home', 'action'=>'galleries'));
+	Router::connect('/gallery', array('controller' => 'galleries', 'action'=>'index'));
 	
 	Router::connect('/gallery/:slug/:photo_id', 
-			array('controller' => 'home', 'action'=>'galleries'),
+			array('controller' => 'galleries', 'action'=>'galleries'),
 			array(
 				'pass' => array('slug','photo_id'),
 			)
 	);
 	
 	Router::connect('/gallery/:slug', 
-			array('controller' => 'home', 'action'=>'galleries'),
+			array('controller' => 'galleries', 'action'=>'galleries'),
 			array(
 				'pass' => array('slug'),
 			)

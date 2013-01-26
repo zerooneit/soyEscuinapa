@@ -50,6 +50,21 @@ class AppHelper extends Helper {
 		
 	}
 	
+	public function getGalleryFirstMedia($gallery_id){
+		if (!is_int($gallery_id)) return array();
+		
+		App::import("Model", "Media");  
+		$model = new Media();
+		$authors = $model->query("
+			SELECT * FROM esc_media AS Media LEFT JOIN esc_gallery_has_media AS GalleriesHasMedia ON 
+				Media.media_id = GalleriesHasMedia.media_id
+			WHERE
+				GalleriesHasMedia.gallery_id =". $gallery_id ." LIMIT 1	");
+		
+		return $authors;  
+		
+	}
+	
 	public function getAuthorsFromGallery($gallery_id){
 		
 		if (!is_int($gallery_id)) return array();

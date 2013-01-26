@@ -29,14 +29,14 @@ App::uses('AppController', 'Controller');
  * @package       app.Controller
  * @link http://book.cakephp.org/2.0/en/controllers/pages-controller.html
  */
-class HomeController extends AppController {
+class GalleriesController extends AppController {
 
 /**
  * Controller name
  *
  * @var string
  */
-	public $name = 'Home';
+	public $name = 'Galleries';
 
 /**
  * This controller does not use a model
@@ -69,20 +69,37 @@ class HomeController extends AppController {
 	
 
 	public function index(){
+		
+	}
 	
+	public function galleries($gallery_name = null, $photo_id = 0){
+		
+		$path = func_get_args();
+		
+		
+		$isIndex = '';	
 		$extra_styles = array(
-			'app_styles/app.home.styles'
+			
+		);
+		
+		$extra_plugins = array(
+			'jquery.feeds.min',
+			'jquery.ztwitterfeed.min',
+			'galleria/galleria-1.2.9.min',
+			'galleria/themes/classic/galleria.classic.min.js'
 		);
 
 		$extra_values = array(
 			'init.values'
 		);
-
-		$extra_plugins = array(
-			'jquery.feeds.min',
-			'jquery.ztwitterfeed.min',
-			'jquery.tmpl.min',
-			'jquery.tmplPlus.min'
+		
+		$data = $this->Gallery->findByGalleryName( strtolower(Inflector::humanize($gallery_name)) );
+		
+		$galleries = array(
+			'gallery_name' => $gallery_name,
+			'humanize' => Inflector::slug($gallery_name),
+			'db_galleries' =>  $data
+			
 		);
 		
 		$extra_scripts = array(
@@ -90,17 +107,24 @@ class HomeController extends AppController {
 		);
 		
 		
+		
+		if (empty($gallery_name) ){
+			$gallery_name = Inflector::slug('Galerias');
+			$isIndex = 'gallery_index';
+		}
+		
+		if ( empty($data) && empty($isIndex) ){
+			throw new NotFoundException;
+		}
+		
+		
+		$title_for_layout = 'Galer&iacute;a - '.Inflector::humanize($gallery_name);
 
-		$title_for_layout = 'Escuin@pa';
-		
-		
-		
-		
-		
-		$this->set(compact('extra_styles','extra_values','extra_plugins', 'extra_scripts','title_for_layout', 'extra_templates'));
+		$this->set(compact('extra_styles','extra_values','extra_plugins','extra_scripts','title_for_layout','path','data','galleries'));
 		
 		$this->layout = 'base';
+		
+		
+		
 	}
-	
-
 }

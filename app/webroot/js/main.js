@@ -48,7 +48,7 @@
 					this.title = trimText(this.title, 50);
 				},
 				entryTemplate: '<article class="news twelve columns">'+
-									'<div class="three columns news-thumb"><img src="http://placehold.it/106x106/&text=Noticia"></div>'+
+									'<div class="three columns news-thumb"><img src="img/news.png"></div>'+
 									'<div class="nine columns news-body">'+
 									'<h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5>'+
 									'<p><!=contentSnippet!></p>'+
@@ -67,7 +67,7 @@
 					this.contentSnippet = trimText(this.contentSnippet, 100);
 				},
 				entryTemplate: 	'<li style="height: 275px;" >'+
-									'<img src="http://placehold.it/267x72/&text=Noticia">'+
+									'<div class="news-img-secondary" ></div>'+
 									'<div style="overflow-y:hidden; "><h5><a class="news-title" target="_blank" href="<!=link!>"><!=title!></a></h5></div>'+
 									'<p><!=contentSnippet!></p>'+
 								'</li>'
@@ -102,6 +102,24 @@
 
 	$(document).ready(function() {
 		window.app.init();
+		
+		if (typeof Galleria != 'undefined'){
+			Galleria.configure({
+				imageCrop: true,
+				imagePosition: 'top left',
+				responsive: true,
+				fullscreenDoubleTap: true,
+				swipe: true,
+				layerFollow: false,
+				maxScaleRation: 0.25,
+				showInfo: true,
+				lightbox: false,
+				thumbnails: true,
+				transition: 'fade',
+				wait:true
+			});
+			Galleria.run('.gallery-main');	
+		}
 	});
 
 })(jQuery, this);

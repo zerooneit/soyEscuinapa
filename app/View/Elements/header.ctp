@@ -40,7 +40,7 @@
     <li class="name"><h1><a href="/">Escuin@pa</a></h1></li>
     <li class="toggle-topbar"><a href="#"></a></li>
   </ul>
-
+  <!--	
   <section>
     <ul class="left">
       <li><a href="#">Link</a></li>
@@ -60,6 +60,7 @@
       </li>
     </ul>
   </section>
+  -->
 </nav>
 
 <!-- End Navigation -->

@@ -19,7 +19,9 @@ a.news-title, a.news-title:hover {
 	color: #666;
 }
 
-
+.news-img-secondary {
+	background:url('../../img/news.png') no-repeat left top; overflow:hidden; height: 72px
+}
 .advert-long .advert-wrapper{
 	overflow: hidden;
 }

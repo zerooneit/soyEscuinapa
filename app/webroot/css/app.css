@@ -63,12 +63,17 @@ a.gallery, a.gallery:hover{
 	font-size: 15px;
 	font-weight: bold;
 	padding: 5px;
+	font-family: 'PT Sans Caption'
 }
 
 .gallery .gl-author {
 	font-size: 11px;
 	padding: 0px 5px 5px 5px;
 	color: #aaa;
+}
+
+.gallery-main {
+	height: 600px;
 }
 /* -----------------------------------------
    TWITTER
