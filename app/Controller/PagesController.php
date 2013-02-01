@@ -73,15 +73,5 @@ class PagesController extends AppController {
 		$this->render(implode('/', $path));
 	}
 
-	public function beforeFilter(){
-		$extra_styles = array();
-		$extra_classes = array();
-		$extra_plugins = array();
-		$extra_values = array();
-		$title_for_layout = '';
-		$this->set(compact('extra_styles','extra_plugins','extra_classes','extra_values', 'title_for_layout'));
-		parent::beforeFilter();
-	}
-
 	
 }

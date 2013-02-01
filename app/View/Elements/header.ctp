@@ -8,11 +8,21 @@
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"> 
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title><?php echo $title_for_layout; ?></title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width">
-
-            
-    <?php 
+    
+    <?php
+    echo $this->Html->meta(array('name'=>'viewport' , 'content' => 'width=device-width'));
+	
+	foreach ($meta_tags as $name => $content){
+		echo $this->Html->meta(array('name'=>$name,'content'=>$content));	
+	} 
+	
+	foreach ($fb_tags as $property => $content){
+		echo $this->Html->meta(array('property'=>$property,'content'=>$content));	
+	}
+	
+	foreach ($tw_tags as $property => $content){
+		echo $this->Html->meta(array('name'=>$property,'content'=>$content));	
+	}    
     /**
      * Common Styles
      **/

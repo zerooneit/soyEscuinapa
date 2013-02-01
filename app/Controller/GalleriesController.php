@@ -47,20 +47,6 @@ class GalleriesController extends AppController {
 	
 	public $helpers = array('Mobile');
 
-	public function beforeFilter(){
-		$extra_styles = array();
-		$extra_classes = array();
-		$extra_plugins = array();
-		$extra_values = array();
-		$extra_scripts = array();
-		$extra_templates = array();
-		$title_for_layout = '';
-		
-				
-		$this->set(compact('extra_styles','extra_plugins','extra_classes','extra_values', 'title_for_layout','extra_scripts'));
-		parent::beforeFilter();
-	}
-
 	public function process() {
 		$path = func_get_args();
 		$this->render(implode('/', $path));
@@ -73,38 +59,25 @@ class GalleriesController extends AppController {
 	}
 	
 	public function galleries($gallery_name = null, $photo_id = 0){
-		
+		extract($this->viewVars, EXTR_REFS );
 		$path = func_get_args();
-		
-		
-		$isIndex = '';	
-		$extra_styles = array(
 			
-		);
+		$isIndex = '';	
 		
-		$extra_plugins = array(
-			'jquery.feeds.min',
-			'jquery.ztwitterfeed.min',
-			'galleria/galleria-1.2.9.min',
-			'galleria/themes/classic/galleria.classic.min.js'
-		);
+		
+		$extra_plugins[] = 'jquery.feeds.min';
+		$extra_plugins[] = 'jquery.ztwitterfeed.min';
+		$extra_plugins[] = 'galleria/galleria-1.2.9.min';
+		$extra_plugins[] = 'galleria/themes/classic/galleria.classic.min.js';
+		
 
-		$extra_values = array(
-			'init.values'
-		);
+		$extra_values[] = 'init.values';
 		
 		$data = $this->Gallery->findByGalleryName( strtolower(Inflector::humanize($gallery_name)) );
+		$this->set('data', $data);
 		
-		$galleries = array(
-			'gallery_name' => $gallery_name,
-			'humanize' => Inflector::slug($gallery_name),
-			'db_galleries' =>  $data
-			
-		);
-		
-		$extra_scripts = array(
-			'main'
-		);
+
+		$extra_scripts[] = 'main';
 		
 		
 		
@@ -117,10 +90,24 @@ class GalleriesController extends AppController {
 			throw new NotFoundException;
 		}
 		
+		if(!empty($isIndex)) { $this->redirect('/gallery/');}
 		
-		$title_for_layout = 'Galer&iacute;a - '.Inflector::humanize($gallery_name);
+		$title_for_layout = 'Escuinapa - Galer&iacute;a - '.Inflector::humanize($gallery_name);
 
-		$this->set(compact('extra_styles','extra_values','extra_plugins','extra_scripts','title_for_layout','path','data','galleries'));
+		$meta_tags['description'] = utf8_encode($data['Gallery']['gallery_description']);
+		$image = json_decode($data['Media'][0]['media_object']);
+		$fb_tags['og:title'] = Inflector::humanize($title_for_layout);
+		$fb_tags['og:description'] = utf8_encode($data['Gallery']['gallery_description']);
+		$fb_tags['og:url'] = Router::url(null, true);
+		$fb_tags['og:image'] =  Router::url('/', true).substr($image->url,1);
+		
+		
+		$tw_tags['twitter:url'] = Router::url(null, true);
+		$tw_tags['twitter:title'] = Inflector::humanize($title_for_layout);
+		$tw_tags['twitter:description'] = utf8_encode($data['Gallery']['gallery_description']);
+		$tw_tags['twitter:image'] = Router::url('/', true).substr($image->url,1);
+			
+		
 		
 		$this->layout = 'base';
 		

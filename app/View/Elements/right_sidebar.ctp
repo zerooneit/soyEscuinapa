@@ -75,7 +75,7 @@
           		<div class="sb-ads-title">¿Te gustar&iacute;a anunciarte?</div>
           		<div class="sb-ads-url">Escuinapa</div>
           		<div class="sb-ads-body">
-          			<div class="four columns sb-ads-img"><img src="img/advert.jpg" /> </div>
+          			<div class="four columns sb-ads-img"><img src="/img/advert.jpg" /> </div>
           			<div class="eight columns sb-ads-content"><p>Anunciate con nosotros de manera gratuita, aqu&iacute; te decimos como.</p></div>
           		</div>
           	</article>

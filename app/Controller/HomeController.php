@@ -47,19 +47,7 @@ class HomeController extends AppController {
 	
 	public $helpers = array('Mobile');
 
-	public function beforeFilter(){
-		$extra_styles = array();
-		$extra_classes = array();
-		$extra_plugins = array();
-		$extra_values = array();
-		$extra_scripts = array();
-		$extra_templates = array();
-		$title_for_layout = '';
-		
-				
-		$this->set(compact('extra_styles','extra_plugins','extra_classes','extra_values', 'title_for_layout','extra_scripts'));
-		parent::beforeFilter();
-	}
+	
 
 	public function process() {
 		$path = func_get_args();
@@ -69,36 +57,23 @@ class HomeController extends AppController {
 	
 
 	public function index(){
+		
+		extract($this->viewVars, EXTR_REFS );
+		$extra_styles[] = 'app_styles/app.home.styles';
+
+		$extra_values[] ='init.values';
+
+		$extra_plugins[] = 'jquery.feeds.min';
+		$extra_plugins[] = 'jquery.ztwitterfeed.min';
+		$extra_plugins[] = 'jquery.tmpl.min';
+		$extra_plugins[] = 'jquery.tmplPlus.min';
+		
+		$extra_scripts[] = 	'main';
+		
 	
-		$extra_styles = array(
-			'app_styles/app.home.styles'
-		);
-
-		$extra_values = array(
-			'init.values'
-		);
-
-		$extra_plugins = array(
-			'jquery.feeds.min',
-			'jquery.ztwitterfeed.min',
-			'jquery.tmpl.min',
-			'jquery.tmplPlus.min'
-		);
+		$title_for_layout = 'Escuinapa - Inicio';
 		
-		$extra_scripts = array(
-			'main'
-		);
-		
-		
-
-		$title_for_layout = 'Escuin@pa';
-		
-		
-		
-		
-		
-		$this->set(compact('extra_styles','extra_values','extra_plugins', 'extra_scripts','title_for_layout', 'extra_templates'));
-		
+			
 		$this->layout = 'base';
 	}
 	

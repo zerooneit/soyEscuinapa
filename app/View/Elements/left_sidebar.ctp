@@ -44,5 +44,17 @@
 	      </div>	
       </div>
      --> 
-      
+     <div class="row">
+     	<div class="columns six">
+		   	<a href="https://twitter.com/share" class="twitter-share-button" data-via="escuinapa_" data-lang="es" data-size="medium" 
+		  	   data-count="vertical" data-related="diegoresendez" data-hashtags="Escuinapa" data-align="left" data-dnt="true">Twittear</a>
+		  	   
+	  	</div>
+	  	<div class="columns six">
+	  		<div class="fb-like" data-href="http://escuinapense.com.mx" data-send="false" data-layout="box_count" data-width="250" data-show-faces="false" data-font="lucida grande"></div>
+	  	</div>   
+      	   
+     </div>
+     
+     
 </div>
