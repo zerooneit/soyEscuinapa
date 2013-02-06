@@ -56,9 +56,7 @@
 
   </div> 
 </section>
-<pre>
-<?=print_r($prueba);?>
-</pre>
+
 <!-- End Main Section -->
   
 

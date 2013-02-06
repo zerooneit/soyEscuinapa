@@ -50,6 +50,17 @@ class AppHelper extends Helper {
 		
 	}
 	
+	public function indexGalleries($page=0, $limit =12){
+		App::import("Model", "Gallery");  
+		$model = new Gallery();
+		$index = $page * $limit;
+		$galleries = $model->query("SELECT Gallery.gallery_id, Gallery.gallery_name, Gallery.gallery_description FROM esc_galleries AS Gallery
+										ORDER BY Gallery.gallery_id ASC	LIMIT $index , $limit  ");
+		
+		return $galleries;
+		
+	}
+	
 	public function getGalleryFirstMedia($gallery_id){
 		if (!is_int($gallery_id)) return array();
 		

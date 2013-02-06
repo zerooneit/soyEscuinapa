@@ -55,7 +55,24 @@ class GalleriesController extends AppController {
 	
 
 	public function index(){
+		extract($this->viewVars, EXTR_REFS );
+		$extra_plugins[] = 'jquery.feeds.min';
+		$extra_plugins[] = 'jquery.ztwitterfeed.min';
 		
+		$extra_scripts[] = 'main';
+		
+		$title_for_layout = 'Escuinapa - Galer&iacute;as ';
+
+		$meta_tags['description'] = 'Contiene las galerías que muestran el lado bueno y bonito de nuestro pueblo, cada una representa una vivencia del usuario que nos la envía para publicarlas';
+		
+		$fb_tags['og:title'] = Inflector::humanize($title_for_layout);
+		$fb_tags['og:description'] = 'Contiene las galerías que muestran el lado bueno y bonito de nuestro pueblo, cada una representa una vivencia del usuario que nos la envía para publicarlas';
+		$fb_tags['og:url'] = Router::url(null, true);
+		
+		
+		$tw_tags['twitter:url'] = Router::url(null, true);
+		$tw_tags['twitter:title'] = Inflector::humanize($title_for_layout);
+		$tw_tags['twitter:description'] = 'Contiene las galerías que muestran el lado bueno y bonito de nuestro pueblo, cada una representa una vivencia del usuario que nos la envía para publicarlas';
 	}
 	
 	public function galleries($gallery_name = null, $photo_id = 0){

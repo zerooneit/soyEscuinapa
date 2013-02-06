@@ -24,7 +24,10 @@
  * Here, we are connecting '/' (base path) to controller called 'Pages',
  * its action called 'display', and we pass a param to select the view file
  * to use (in this case, /app/View/Pages/home.ctp)...
+ * 
  */
+ 
+ 	Router::parseExtensions('xml'); 
 	Router::connect('/',array('controller' => 'home', 'action'=>'index'));
 	
 	Router::connect('/gallery', array('controller' => 'galleries', 'action'=>'index'));
@@ -35,6 +38,8 @@
 				'pass' => array('slug','photo_id'),
 			)
 	);
+	
+	Router::connect('/sitemap',array('controller'=>'sitemaps','action'=>'index','url'=>array('ext'=>'xml'))); 
 	
 	Router::connect('/gallery/:slug', 
 			array('controller' => 'galleries', 'action'=>'galleries'),

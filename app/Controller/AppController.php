@@ -54,8 +54,9 @@ class AppController extends Controller {
 		
 		/** User extra Metatags **/
 		$meta_tags =array(
-			'description' => 'Escuinapa es un pueblo pequeño y tranquilo al sur de Sinaloa, México. Apodado "La Perla Camaronera" por uno de sus productos principales, el Camarón. Sus Actividades primordiales son la Pesca, Ganadería y la Agricultura.'
-			
+			'description' => 'Escuinapa es un pueblo pequeño y tranquilo al sur de Sinaloa, México. Apodado "La Perla Camaronera" por uno de sus productos principales, el Camarón. Sus Actividades primordiales son la Pesca, Ganadería y la Agricultura.',
+			'keywords' => 'Escuinapa, Escuinapa de Hidalgo, Camarones, Perla Camaronera, Galerias Escuinapa, Fotos Escuinapa, Rio de Perros, Escuinapa Sinaloa, Turismo Escuinapa,
+						   Empresas Escuinapa'	
 		);
 		
 		/** Open Graph Metatags **/
